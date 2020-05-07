@@ -1,6 +1,7 @@
 import networkx as nx
 from algorithms.prims_algorithm import prims_algorithm
 
+#Final testing of my code on three seperate weighted graphs
 G1 = nx.read_weighted_edgelist('.\data\G1.txt', nodetype = int)
 G1 = nx.Graph(G1)
 
